@@ -1,0 +1,13 @@
+torch>=2.7,<3
+transformers==4.48.3
+huggingface_hub>=0.28,<1
+scikit-learn==1.6.1
+scipy
+numpy
+pandas
+pillow
+h5py
+structured-data-models==0.2.1
+tabicl
+tabpfn==2.0.9
+matplotlib

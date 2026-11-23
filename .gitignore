@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/
+*.npz
+*.csv
+!splits/*.csv
+.DS_Store
