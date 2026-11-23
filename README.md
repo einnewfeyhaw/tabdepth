@@ -87,6 +87,8 @@ Useful variant names in `variants.json`:
 | `zero` | aligned Depth Anything V2 only, no tabular model |
 | `knn`, `gbt2`, `gp` | classical regressors on the same columns |
 
+The baseline runners need the original repositories on the Python path: `run_omnidc.py` needs [OMNI-DC](https://github.com/princeton-vl/OMNI-DC), `run_priorda.py` needs [Prior Depth Anything](https://github.com/SpatialVision/Prior-Depth-Anything), and `run_marigold.py` needs [Marigold-DC](https://github.com/prs-eth/Marigold-DC). `prep.py` and `scenes.py` read the official NYUv2 `splits.mat`, which is not included.
+
 `--diag 1` also writes the error by distance to the nearest measurement and the coverage of the 90% predictive interval. `--shard i --nshard n` splits a setting over several GPUs. The docstring at the top of `run_ours.py` lists every option.
 
 ## Notes
